@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar 
+    [(ngModel)]="autocomplete.query" 
+    [showCancelButton]="true" 
+    (ionInput)="autoComplete()" 
+    (ionCancel)="dismiss()"
+    placeholder="Start typing and select ...">
+</ion-searchbar>
+
+<ion-list>
+  <ion-item *ngFor="let item of autoCompleteItems" (click) = "setSearchbarVal(item.fields.word)" >
+      {{ item.fields.word }}
+  </ion-item>
+</ion-list>
+
+</ion-content>
