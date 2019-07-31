@@ -20,3 +20,4 @@
 7. The data is fetched from the database provided.
 
 #Screenshots
+![Screenshot-1](Screenshots/Screenshot-1.png)
