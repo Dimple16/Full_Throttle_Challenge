@@ -19,5 +19,6 @@
 6. While the server runs, the request and response can be viewed on the terminal. (Screenshot-1)
 7. The data is fetched from the database provided.
 
-#Screenshots
+# Screenshots
 ![Screenshot-1](Screenshots/Screenshot-1.png)
+![Screenshot-2](Screenshots/Screenshot-2.png)
